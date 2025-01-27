@@ -1,0 +1,163 @@
+@media (max-width:575px){
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar-toggler {
+        border: 0
+    }
+
+    #cart {
+        padding-bottom: 30px;
+    }
+    #cart .cart-part h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #cart .cart-part .remove {
+        padding: 12px;
+        padding-left: 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    #cart .cart-part .remove .remove1 {
+            font-size: 13px;
+    }
+    #cart .cart-part .remove .remove1 strong {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    #cart .cart-part .nick {
+        padding: 0px 0px 16px 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    #cart .cart-part .nick .heading {
+        margin-top: 30px;
+    }
+    #cart .cart-part i {
+        font-size: 13px;
+    }
+    #cart .cart-part strong {
+        font-size: 13px;
+        margin-left: 3px;
+    }
+    #cart .cart-part .shose .shose1 .image img{
+        width: 43px;
+    }
+    #cart .cart-part .shose .shose1 .image {
+        column-gap: 10px;
+        margin-top: 10px;
+    }
+
+    #cart .cart-part .shose .shose1 .image .imge h5 {
+        font-size: 15px;
+    }
+    #cart .cart-part .shose .image .imge span {
+        font-size: 12px;
+    }
+
+
+    #cart .cart-part .shose .image .right {
+        display: flex;
+        justify-content: end;
+        column-gap: 6px;
+        align-items: end;
+        text-align: right;
+        padding-left: 0px;
+    }
+    #cart .cart-part .shose .right i {
+        font-size: 18px;
+    }
+    #cart .cart-part .shose .right span {
+        font-size: 14px;
+    }
+
+    #cart .cart-part .shose .btn button {
+        width: 50%;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    #cart .cart-part .rbox {
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    #cart .cart-part .rbox .mini-box img{
+        width: 25px;
+    }
+    #cart .cart-part .rbox .mini-box h5 {
+        font-size: 16px;
+    }
+
+    #cart .cart-part .rbox .mini-box {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+        border-radius: 15px;
+        column-gap: 10px;
+    }
+
+    #cart .cart-part .rbox h6 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #cart .cart-part .rbox .text .tleft {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    #cart .cart-part .rbox .ttrp {
+        margin-top: 12px;
+    }
+    #cart .cart-part .rbox .ttrp .tleft .total {
+        font-size: 14px;
+    }
+    #cart .cart-part .rbox .ttrp .tright .totalrp {
+        font-size: 14px;
+    }
+    #cart .cart-part .rbox .button {
+        padding: 8px 0;
+        border-radius: 12px;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 50%;
+        text-align: center;
+    }
+
+    #cart .cart-part .rbox .button a {
+        font-size: 14px;;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===================================== */
+}

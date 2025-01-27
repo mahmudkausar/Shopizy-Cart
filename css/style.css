@@ -1,0 +1,331 @@
+/* ============= commmon css start ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.body{
+    font-family:"Poppins", serif;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navber part start ============== */ 
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 34px;
+}
+.navbar-brand{
+    padding-top: 52px;
+    padding-bottom: 45px;
+    margin-right: 114px;
+}
+.nav-item{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.me-auto {
+    margin-right: 5px !important;
+}
+.nav-item .nav-link{
+    margin-right: 30px;
+    color: #121212;
+}
+
+.form-control {
+    width: 500px;
+    padding: 20px 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(69, 110, 214, 0.05);
+}
+
+.navbar-collapse i {
+    color: #121212;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    font-size: 20px;
+}
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.navbar .icon i{
+    position: relative;
+    top: 6px;
+    left: 0;
+    color: #456ED6;
+}
+
+/* ============= navber part end ============== */ 
+
+
+/* ============= cart part start ============== */
+#cart{
+    padding-bottom: 117px;
+}
+#cart .cart-part{
+    justify-content: space-between;
+}
+#cart .cart-part h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#cart .cart-part .remove{
+    width: 100%;
+    padding: 15px;
+    padding-left: 37px;
+    border: 1px solid #9F9F9F;
+    border-radius: 50px;
+    margin-top: 28px;
+}
+#cart .cart-part .remove .remove1 strong{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+#cart .cart-part .remove .selectall{
+    display: flex;
+    justify-content: space-between;
+}
+#cart .cart-part .remove .selectall .remove2 a{
+    text-decoration: underline;
+    color: #F53F6B;
+}
+#cart .cart-part .nick{
+    width: 100%;
+    border: 1px solid #9F9F9F;
+    padding: 0px 30px 16px 37px;
+    border-radius: 32px;
+    background: #FFF;
+    margin-top: 15px;
+}
+#cart .cart-part i{
+    color: #456ED6;
+}
+#cart .cart-part .nick .heading{
+    margin-top: 30px;
+}
+#cart .cart-part strong{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+
+#cart .cart-part .shose{
+    justify-content: space-between;
+}
+#cart .cart-part .shose .shose1 .image{
+  display: flex;
+  column-gap: 26px;
+  margin-top: 24px;
+}
+#cart .cart-part .shose .shose1 .image .imge h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#cart .cart-part .shose .image .imge span{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#cart .cart-part .shose .image .right {
+    display: flex;
+    justify-content: end;
+    column-gap: 34px;
+    align-items: end;
+    padding-left: 150px;
+}
+#cart .cart-part .shose .right i{
+    font-size: 35px;
+    color: #456ED6;
+}
+#cart .cart-part .shose .right i:first-child{
+    color: #9F9F9F;
+}
+#cart .cart-part .shose .right span{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#cart .cart-part .shose .btn{
+    display: flex;
+    justify-content: center;
+}
+#cart .cart-part .shose .btn button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #456ED6;
+    background: #FFF;
+    color: #456ED6;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+#cart .cart-part .rbox{
+    padding: 25px;
+    border-radius: 32px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+}
+
+#cart .cart-part .rbox .mini-box{
+    padding: 20px 89px 20px 20px;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+#cart .cart-part .rbox .mini-box h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#cart .cart-part .rbox h6{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+#cart .cart-part .rbox .text{
+    position: relative;
+    align-items: center;
+}
+#cart .cart-part .rbox .text::after{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    border: 1px solid #9F9F9F;
+}
+#cart .cart-part .rbox .text .tleft{
+    display: flex;
+    justify-content: space-between;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+    margin-bottom: 6px;
+}
+
+#cart .cart-part .rbox .ttrp {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart .cart-part .rbox .ttrp .tleft .total{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+#cart .cart-part .rbox .ttrp .tright .totalrp{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#cart .cart-part .rbox .ttrp .tright{
+    text-align: right;
+}
+#cart .cart-part .rbox .button{
+    padding: 21px 0;
+    border-radius: 20px;
+    background: #456ED6;
+    text-align: center;
+    margin-top: 18px;
+}
+#cart .cart-part .rbox .button a{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= cart part end ============== */ 
+
